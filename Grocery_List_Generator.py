@@ -104,47 +104,47 @@ def add_taco_salad():
 
 # function adding protein pasta ingredients
 def add_protein_pasta():
-    onion += 1
-    garlic_cloves_minced += 4
-    tomato_sauce_cans_15oz += 1
-    crushed_tomato_cans_28oz += 1
-    tomato_paste_cans_6oz += 1
-    broth_cups += 0.5
-    butter_tbsp += 1
-    sugar_tbsp += 1
-    basil_tbsp += 1
-    oregano_tbsp += 1
-    parsley_tsp += 1
-    protein_pasta_oz += 8
+    all_ingredients["onion"] += 1
+    all_ingredients["minced garlic cloves"] += 4
+    all_ingredients["15 oz can tomato sauce"] += 1
+    all_ingredients["28 oz can crushed tomato"] += 1
+    all_ingredients["6 oz tomato paste"] += 1
+    all_ingredients["cups broth"] += 0.5
+    all_ingredients["tbsp butter"] += 1
+    all_ingredients["tbsp sugar"] += 1
+    all_ingredients["tbsp basil"] += 1
+    all_ingredients["tbsp oregano"] += 1
+    all_ingredients["tsp parsley"] += 1
+    all_ingredients["oz protein pasta"] += 8
 
 # function for adding rice noodles ingredients
 def add_rice_noodles():
-    broccoli_floret_cups += 2
-    bell_pepper += 1
-    carrot_chopped_cups += 0.75
-    garlic_cloves_minced += 2
-    ginger_minced_tsp += 2
-    cornstarch_tbsp += 1
-    broth_cups += 0.25
-    soy_sauce_tbsp += 3
-    honey_cups += 0.75
-    sesame_oil_tbsp += 1
-    red_pepper_flakes_tsp += 1
-    olive_oil_tbsp += 2
+    all_ingredients["cups broccoli floret"] += 2
+    all_ingredients["bell pepper"] += 1
+    all_ingredients["cups chopped carrot"] += 0.75
+    all_ingredients["minced garlic cloves"] += 2
+    all_ingredients["tsp minced ginger"] += 2
+    all_ingredients["tbsp cornstarch"] += 1
+    all_ingredients["cups broth"] += 0.25
+    all_ingredients["tbsp soy sauce"] += 3
+    all_ingredients["cups honey"] += 0.75
+    all_ingredients["tbsp sesame oil"] += 1
+    all_ingredients["tsp red pepper flakes"] += 1
+    all_ingredients["tbsp olive oil"] += 2
 
 
 # function for adding spanish rice ingredients
 def add_spanish_rice():
-    bell_pepper += 2
-    onion += 1
-    garlic_cloves_minced += 2
-    cilantro_bunch += 0.75
-    rice_cups += 2
-    rotel_cans_10oz += 2
-    tomato_sauce_cans_15oz += 1
-    broth_cups += 4
-    corn_cans += 1
-    taco_seasoning_tbsp += 2
+    all_ingredients["bell pepper"] += 2
+    all_ingredients["onion"] += 1
+    all_ingredients["minced garlic cloves"] += 2
+    all_ingredients["bunch cilantro"] += 0.75
+    all_ingredients["cups rice"] += 2
+    all_ingredients["10 oz can rotel"] += 2
+    all_ingredients["15 oz can tomato sauce"] += 1
+    all_ingredients["cups broth"] += 4
+    all_ingredients["cans corn"] += 1
+    all_ingredients["tbsp taco seasoning"] += 2
 
 
 ##### working on this part #####
